@@ -1,0 +1,24 @@
+.header{
+    border-bottom: 1px solid #D7D7D7;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.user-info{
+    text-align: right;
+    margin-right: 10px;
+    line-height: 1;
+}
+
+.welcome-message{
+    font-size: 14px;
+    color: #8D9091;
+    display: block;
+}
+
+.user{
+    font-size: 16px;
+    color:#8A84EE;
+}
