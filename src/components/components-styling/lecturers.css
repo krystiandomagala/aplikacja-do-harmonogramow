@@ -1,0 +1,40 @@
+
+.module-item{
+    background-color: rgba(68, 61, 246, 0.1);
+    color: rgba(68, 61, 246, 1);
+    border-radius: 6px;
+    padding: 2px 8px;
+    margin-right: 10px;
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+th,td{
+    padding: 20px 20px;
+    text-align: left;
+    min-width: 130px;
+}
+
+td{
+    border-bottom: 1px #efefef solid;
+}
+
+tr:nth-child(even){
+    background-color: #FAFAFC;
+}
+
+table{
+    border-collapse: collapse;
+    overflow: scroll;
+}
+th{
+    color: #8D9091;
+    font-size: 14px;
+}
+
+.lecturers-wrapper{
+    height: 700px;
+    overflow-y: scroll;
+}

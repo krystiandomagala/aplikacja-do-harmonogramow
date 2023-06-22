@@ -7,7 +7,9 @@ import Lecturers from "./views/Lecturers";
 import Rooms from "./views/Rooms";
 import Modules from "./views/Modules";
 import Groups from "./views/Groups";
+import AddLecturer from "./views/AddLecturer";
 import "./index";
+
 function App() {
   return (
     <>
@@ -19,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/schedules" element={<Schedules />} />
             <Route path="/lecturers" element={<Lecturers />} />
+            <Route path="/lecturers/add" element={<AddLecturer />} />
             <Route path="/rooms" element={<Rooms />} />
             <Route path="/modules" element={<Modules />} />
             <Route path="/groups" element={<Groups />} />

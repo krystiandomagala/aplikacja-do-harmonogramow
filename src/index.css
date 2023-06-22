@@ -12,6 +12,7 @@ body {
   height: calc(100vh - 20px);
   display: flex;
   border-top: 20px solid #5A5BF1;
+  justify-content: center;
 }
 
 code {
@@ -22,4 +23,5 @@ code {
 .wrapper{
   padding: 30px 40px 0;
   width: 100%;
+  max-width: 1920px;
 }

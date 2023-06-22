@@ -32,7 +32,7 @@ function SidebarNavigation() {
               <span>Harmonogramy</span>
             </Link>
           </li>
-          <li className={location.pathname === "/lecturers" ? "active" : ""}>
+          <li className={location.pathname === "/lecturers" || location.pathname === "/lecturers/add" ? "active" : ""}>
             <Link to="/lecturers" className="link">
               <Lecturer />
               <span>Prowadzący</span>
