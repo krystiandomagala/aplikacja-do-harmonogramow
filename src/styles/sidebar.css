@@ -1,0 +1,60 @@
+nav{
+    padding: 0 55px 0px 40px;
+    width: 300px;
+    border-right: 1px #D7D7D7 solid;
+}
+
+nav div{
+    margin-top: 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    margin-top: 60px;
+}
+
+h2{
+    color: #5A5BF1;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+h3{
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #252525;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.link:hover{
+    background-color: #5a5af127;
+}
+
+.link{
+    user-select: none;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in;
+    padding: 15px 12px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.link span{
+    margin-left: 15px;
+}
+
+.active{
+    color: #5A5BF1!important;
+}
